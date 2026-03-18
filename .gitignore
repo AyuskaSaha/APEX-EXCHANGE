@@ -1,0 +1,22 @@
+# Docker volumes
+*/data/
+kafka-data/
+zk-data/
+redis-data/
+prometheus-data/
+grafana-data/
+postgres-data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# C++ build artifacts
+*.o
+*.out
+/build/
+
+# IDE files
+.vscode/
+.idea/
+*.log

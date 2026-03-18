@@ -1,0 +1,11 @@
+FROM gcc:11
+
+WORKDIR /app
+
+COPY . .
+
+RUN apt-get update && apt-get install -y cmake
+
+RUN cmake . && make
+
+CMD ["./matching_engine"]
